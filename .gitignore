@@ -61,7 +61,6 @@ typings/
 .next
 
 # other
-downloaded_files/
 
 client/main
 *.exe

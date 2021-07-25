@@ -664,12 +664,19 @@ async function run() {
     //		console.log(box);
     //		console.log("Level:", octantLevel);
 //            if ( octantLevel === '17' ) {
-                for (let i = 0; i < octants.length; i++) {
+				if (octantLevel === '17') {
+					for (let i = 0; i < octants.length; i++) {
+//						console.log("Level: "+octantLevel+" lat/lon (w,n,e,s): ",box.w,box.n,box.e,box.s,octants[i]);
+						console.log(octants[i])
+					}
+					
+				}
+//                for (let i = 0; i < octants.length; i++) {
     //				ok=1;
-                    console.log("Level: "+octantLevel+" lat/lon (w,n,e,s): ",box.w,box.n,box.e,box.s,octants[i]);
+//                    console.log("Level: "+octantLevel+" lat/lon (w,n,e,s): ",box.w,box.n,box.e,box.s,octants[i]);
     //				console.log(octants[i]);
     //				console.log( "octants[" + octantLevel + "][" + i + "]=" + octants[i]);
-                }
+//                }
 //            }
         }
 	}

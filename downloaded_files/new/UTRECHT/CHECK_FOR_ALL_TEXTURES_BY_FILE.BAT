@@ -19,6 +19,7 @@ for /f "tokens=*" %%P in (check.lst) do (
 		rem echo !fulldir! exists     [!cnt!]
 	) else (
 		echo !fulldir! exists not [!cnt!]
+			echo !fulldir! exists not [!cnt!] >> NOT_THERE.TXT
 	)
 
 	for %%I in (!fulldir!) do (

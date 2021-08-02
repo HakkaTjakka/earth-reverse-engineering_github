@@ -71,3 +71,4 @@ client/main
 *.pb.h
 *.pb.cc
 client/cache
+HOLLAND_LAT_LONG_CENTER.TXT
